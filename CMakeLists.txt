@@ -3,13 +3,13 @@ find_package(Curses REQUIRED)
 
 # Create a `ptaskr` target
 add_executable(ptaskr
-	defs.h
-	io.c
-	menus.c
-	prompts.c
-	rendering.c
-	structs.c
-	tasklists.c
+	src/defs.h
+	src/io.c
+	src/menus.c
+	src/prompts.c
+	src/rendering.c
+	src/structs.c
+	src/tasklists.c
 )
 
 # Link Curses to ptaskr, include dirs, etc.
