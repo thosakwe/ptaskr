@@ -9,7 +9,7 @@ add_executable(ptaskr
 	src/prompts.c
 	src/rendering.c
 	src/structs.c
-	src/tasklists.c
+	src/tasklist.c
 )
 
 # Link Curses to ptaskr, include dirs, etc.
